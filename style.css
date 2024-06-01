@@ -1,0 +1,104 @@
+body {
+    font-family: sans-serif;
+    background-color: #1f1f1f;
+}
+header {
+    background-color: rgb(12, 12, 12);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+h2 {
+    margin-top: 130px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+.block01 {
+    width: 300px;
+    height: 140px;
+    background: linear-gradient(#ffff, #BBBBBB);
+    border-radius: 30px;
+}
+.block01 img{
+    width: 200px;
+    position: absolute;
+    top: 119px;
+    left: 30px;
+}
+.block02 {
+    width: 300px;
+    height: 140px;
+    background: linear-gradient(#ffff, #BBBBBB);
+    border-radius: 30px;
+    position: absolute;
+    right: 8px;
+    top: 199px;
+}
+.block02 img {
+    width: 165px;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+.block03 {
+    width: 300px;
+    height: 140px;
+    background: linear-gradient(#ffff, #bbbbbb);
+    border-radius: 30px;
+    position: absolute;
+    left: 8px;
+    top: 450px;
+}
+.block03 img {
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+.block04 {
+    width: 300px;
+    height: 140px;
+    background: linear-gradient(#ffff, #bbbbbb);
+    border-radius: 30px;
+    position: absolute;
+    right: 8px;
+    top: 450px;
+}
+.block04 img {
+    width: 200px;
+    position: absolute;
+    bottom: 0px;
+    left: 20px;
+}
+img {
+    filter: drop-shadow(10px 15px 5px rgb(24, 24, 24));
+}
+footer {
+    background: linear-gradient(#1f1f1f, #000000);
+    border-top: 5px solid rgb(15, 15, 15);
+    position: absolute;
+    top: 650px;
+    right: 0px;
+    left: 0px;
+}
+footer img {
+    width: 100px;
+}
+.inst {
+    width: 63px;
+    margin-bottom: 16px;
+}
